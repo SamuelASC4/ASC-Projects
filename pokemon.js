@@ -1,0 +1,10 @@
+var lucarioHP = 321;
+var lucarioNum = 448;
+var lucarioType = "Fighting and steel";
+var lucarioBestMove = "Aura Sphere";
+var lucarioLastEvo = true;
+var lucarioAttack = 302;
+var lucarioDefense = 232;
+var lucarioSpAtk = 346;
+var lucarioSpDef = 248;
+var lucarioSpeed = 260;
