@@ -60,8 +60,12 @@ function printRoster(){
 }
 printRoster();
 
-function pokemonAttacked(){
-    for(var i= 0; i < printRoster().length; i-- ){
 
+function pokemonAttacked(){
+    for(var i= 0; i < pokemonArray.length; i++){
+
+pokemonArray[i].hp = pokemonArray[i].hp - 10;
+    console.log(pokemonArray[i]);
     }
 }
+pokemonAttacked();
